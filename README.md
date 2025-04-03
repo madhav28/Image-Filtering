@@ -41,13 +41,12 @@ This project implements various image processing filters including Gaussian Filt
 ## How to Run
 1. Place `grace_hopper.png` in the same directory as `filters.py`.
 2. Run `python filters.py` to generate outputs for all filters.
-3. Output images are saved as:
+3. The output images are saved in the `results` folder as follows:
    - `gaussian_filtered.png`
-   - `edge_detection_original.png`
-   - `edge_detection_gaussian.png`
-   - `sobel_gx.png`, `sobel_gy.png`, `sobel_magnitude.png`
-   - `steerable_alpha_{angle}.png` (for each α)
-   - `log_filter1.png`, `log_filter2.png`
+   - `edge_detection_original.png`, `edge_detection_gaussian_filtered.png`
+   - `sobel_operator_Gx.png`, `sobel_operator_Gy`, `edge_detection_sobel.png`
+   - `sobel_operator_steerable_{itr}.png` (for each α)
+   - `log_filter_LoG1`, `log_filter_LoG2.png`
 
 ## Dependencies
 - Python 3.x
